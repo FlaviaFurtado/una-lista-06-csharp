@@ -1,0 +1,18 @@
+- Um cubo é uma extensão do conceito de matriz, onde os elementos são organizados em três ou mais dimensões, criando uma estrutura tridimensional ou superior.
+- Em C#, é possível criar matrizes multidimensionais para representar cubos.
+Exemplo de cubo (matriz tridimensional) em C#:
+
+int[,,] cubo = new int[2, 2, 2]; // Declara um cubo 2x2x2 de inteiros
+
+// Inicializa o cubo com valores
+cubo[0, 0, 0] = 1;
+cubo[0, 0, 1] = 2;
+cubo[0, 1, 0] = 3;
+cubo[0, 1, 1] = 4;
+cubo[1, 0, 0] = 5;
+cubo[1, 0, 1] = 6;
+cubo[1, 1, 0] = 7;
+cubo[1, 1, 1] = 8;
+
+// Acessa elementos do cubo
+int elementoCentral = cubo[1, 1, 1]; // Valor será 8
