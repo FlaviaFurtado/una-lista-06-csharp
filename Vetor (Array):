@@ -1,0 +1,15 @@
+Um vetor é uma estrutura de dados que armazena uma coleção de elementos do mesmo tipo, organizados em uma sequência unidimensional. Cada elemento é acessado por um índice.
+Em C#, os vetores são representados usando colchetes [].
+Exemplo de vetor em C#:
+
+int[] vetor = new int[5]; // Declara um vetor de inteiros com tamanho 5
+
+// Inicializa o vetor com valores
+vetor[0] = 10;
+vetor[1] = 20;
+vetor[2] = 30;
+vetor[3] = 40;
+vetor[4] = 50;
+
+// Acessa elementos do vetor
+int primeiroElemento = vetor[0]; // Valor será 10
